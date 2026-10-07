@@ -1,0 +1,76 @@
+{
+  "method": "word2vec_ag",
+  "representation": "Word2Vec trained on AG News 100d",
+  "vector_statistics": {
+    "dimension": 100,
+    "vocabulary_size": 26072,
+    "train": {
+      "documents": 9215,
+      "total_tokens": 5942840,
+      "covered_tokens": 5513984,
+      "token_coverage": 0.9278365226053537,
+      "unique_token_types": 142077,
+      "oov_token_types": 120899,
+      "oov_type_rate": 0.8509399832485202,
+      "mean_effective_tokens_per_document": 598.3704829083017,
+      "zero_vector_documents": 0
+    },
+    "validation": {
+      "documents": 1152,
+      "total_tokens": 739662,
+      "covered_tokens": 685364,
+      "token_coverage": 0.9265907941735549,
+      "unique_token_types": 44737,
+      "oov_token_types": 28347,
+      "oov_type_rate": 0.6336365871649865,
+      "mean_effective_tokens_per_document": 594.9340277777778,
+      "zero_vector_documents": 0
+    },
+    "test": {
+      "documents": 1152,
+      "total_tokens": 758942,
+      "covered_tokens": 703961,
+      "token_coverage": 0.9275557288962792,
+      "unique_token_types": 44919,
+      "oov_token_types": 28564,
+      "oov_type_rate": 0.6359001758721253,
+      "mean_effective_tokens_per_document": 611.0772569444445,
+      "zero_vector_documents": 0
+    }
+  },
+  "classifier": {
+    "type": "LogisticRegression",
+    "C": 1.0,
+    "max_iter": 2000,
+    "solver": "lbfgs",
+    "random_state": 42
+  },
+  "validation_accuracy": 0.9375,
+  "validation_macro_f1": 0.8675189569355828,
+  "test_accuracy": 0.9583333333333334,
+  "test_macro_f1": 0.9066599264189626,
+  "test_confusion_matrix": [
+    [
+      126,
+      12,
+      5
+    ],
+    [
+      15,
+      117,
+      13
+    ],
+    [
+      2,
+      1,
+      861
+    ]
+  ],
+  "test_labels": [
+    "business",
+    "politics",
+    "sports"
+  ],
+  "misclassified_count": 48,
+  "elapsed_seconds": 0.25088529999993625
+}

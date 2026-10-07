@@ -1,0 +1,11 @@
+{
+  "glove_errors": 44,
+  "word2vec_ag_errors": 48,
+  "word2vec_nyt_errors": 35,
+  "common_to_all": 28,
+  "pairwise_common": {
+    "glove__word2vec_ag": 37,
+    "glove__word2vec_nyt": 29,
+    "word2vec_ag__word2vec_nyt": 31
+  }
+}

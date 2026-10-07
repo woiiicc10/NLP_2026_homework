@@ -1,0 +1,53 @@
+{
+  "method": "word_frequency",
+  "representation": "word frequency",
+  "vectorizer": {
+    "binary": false,
+    "vocabulary_size": 142077,
+    "matrix_shape_train": [
+      9215,
+      142077
+    ],
+    "matrix_shape_test": [
+      1152,
+      142077
+    ],
+    "train_nonzero": 2978415,
+    "test_nonzero": 368022
+  },
+  "classifier": {
+    "type": "LogisticRegression",
+    "C": 1.0,
+    "max_iter": 2000,
+    "solver": "lbfgs",
+    "random_state": 42
+  },
+  "validation_accuracy": 0.9809027777777778,
+  "validation_macro_f1": 0.9566218394872399,
+  "test_accuracy": 0.9921875,
+  "test_macro_f1": 0.9801736993936089,
+  "test_confusion_matrix": [
+    [
+      141,
+      2,
+      0
+    ],
+    [
+      6,
+      139,
+      0
+    ],
+    [
+      1,
+      0,
+      863
+    ]
+  ],
+  "test_labels": [
+    "business",
+    "politics",
+    "sports"
+  ],
+  "misclassified_count": 9,
+  "elapsed_seconds": 7.968349999999987
+}

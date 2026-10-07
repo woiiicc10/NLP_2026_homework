@@ -1,0 +1,39 @@
+{
+  "raw_rows": 11519,
+  "class_distribution": {
+    "business": 1429,
+    "politics": 1451,
+    "sports": 8639
+  },
+  "token_statistics": {
+    "count": 11519,
+    "mean": 646.0147582255404,
+    "median": 681.0,
+    "max": 5204,
+    "p95": 1026.0,
+    "empty_documents": 0
+  },
+  "split_sizes": {
+    "train": 9215,
+    "validation": 1152,
+    "test": 1152
+  },
+  "split_class_distribution": {
+    "train": {
+      "business": 1143,
+      "politics": 1161,
+      "sports": 6911
+    },
+    "validation": {
+      "business": 143,
+      "politics": 145,
+      "sports": 864
+    },
+    "test": {
+      "business": 143,
+      "politics": 145,
+      "sports": 864
+    }
+  },
+  "split_seed": 42
+}

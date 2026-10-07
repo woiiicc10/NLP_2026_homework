@@ -1,0 +1,7 @@
+{
+  "binary_only_errors": 7,
+  "word_frequency_only_errors": 3,
+  "common_errors": 6,
+  "binary_error_count": 13,
+  "word_frequency_error_count": 9
+}

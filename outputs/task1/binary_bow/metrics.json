@@ -1,0 +1,53 @@
+{
+  "method": "binary_bow",
+  "representation": "binary bag-of-words",
+  "vectorizer": {
+    "binary": true,
+    "vocabulary_size": 142077,
+    "matrix_shape_train": [
+      9215,
+      142077
+    ],
+    "matrix_shape_test": [
+      1152,
+      142077
+    ],
+    "train_nonzero": 2978415,
+    "test_nonzero": 368022
+  },
+  "classifier": {
+    "type": "LogisticRegression",
+    "C": 1.0,
+    "max_iter": 2000,
+    "solver": "lbfgs",
+    "random_state": 42
+  },
+  "validation_accuracy": 0.9817708333333334,
+  "validation_macro_f1": 0.9561852338541109,
+  "test_accuracy": 0.9887152777777778,
+  "test_macro_f1": 0.9718280472027271,
+  "test_confusion_matrix": [
+    [
+      137,
+      5,
+      1
+    ],
+    [
+      6,
+      139,
+      0
+    ],
+    [
+      1,
+      0,
+      863
+    ]
+  ],
+  "test_labels": [
+    "business",
+    "politics",
+    "sports"
+  ],
+  "misclassified_count": 13,
+  "elapsed_seconds": 3.259286299999985
+}

@@ -1,0 +1,76 @@
+{
+  "method": "word2vec_nyt",
+  "representation": "Word2Vec trained on NYT training split 100d",
+  "vector_statistics": {
+    "dimension": 100,
+    "vocabulary_size": 34765,
+    "train": {
+      "documents": 9215,
+      "total_tokens": 5942840,
+      "covered_tokens": 5786965,
+      "token_coverage": 0.9737709579931481,
+      "unique_token_types": 142077,
+      "oov_token_types": 107312,
+      "oov_type_rate": 0.755308741034791,
+      "mean_effective_tokens_per_document": 627.9940314704287,
+      "zero_vector_documents": 0
+    },
+    "validation": {
+      "documents": 1152,
+      "total_tokens": 739662,
+      "covered_tokens": 716318,
+      "token_coverage": 0.9684396386457598,
+      "unique_token_types": 44737,
+      "oov_token_types": 19402,
+      "oov_type_rate": 0.4336902340344681,
+      "mean_effective_tokens_per_document": 621.8038194444445,
+      "zero_vector_documents": 0
+    },
+    "test": {
+      "documents": 1152,
+      "total_tokens": 758942,
+      "covered_tokens": 735106,
+      "token_coverage": 0.9685931204229045,
+      "unique_token_types": 44919,
+      "oov_token_types": 19649,
+      "oov_type_rate": 0.43743182172354683,
+      "mean_effective_tokens_per_document": 638.1128472222222,
+      "zero_vector_documents": 0
+    }
+  },
+  "classifier": {
+    "type": "LogisticRegression",
+    "C": 1.0,
+    "max_iter": 2000,
+    "solver": "lbfgs",
+    "random_state": 42
+  },
+  "validation_accuracy": 0.9513888888888888,
+  "validation_macro_f1": 0.8930219709034118,
+  "test_accuracy": 0.9696180555555556,
+  "test_macro_f1": 0.931335025005437,
+  "test_confusion_matrix": [
+    [
+      129,
+      10,
+      4
+    ],
+    [
+      11,
+      126,
+      8
+    ],
+    [
+      2,
+      0,
+      862
+    ]
+  ],
+  "test_labels": [
+    "business",
+    "politics",
+    "sports"
+  ],
+  "misclassified_count": 35,
+  "elapsed_seconds": 0.23501290000012887
+}

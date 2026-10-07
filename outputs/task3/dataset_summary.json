@@ -1,0 +1,30 @@
+{
+  "rows": 11519,
+  "class_distribution": {
+    "business": 1429,
+    "politics": 1451,
+    "sports": 8639
+  },
+  "split_sizes": {
+    "train": 9215,
+    "validation": 1152,
+    "test": 1152
+  },
+  "split_class_distribution": {
+    "train": {
+      "business": 1143,
+      "politics": 1161,
+      "sports": 6911
+    },
+    "validation": {
+      "business": 143,
+      "politics": 145,
+      "sports": 864
+    },
+    "test": {
+      "business": 143,
+      "politics": 145,
+      "sports": 864
+    }
+  }
+}

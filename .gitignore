@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-bert/
+cache/
+.DS_Store
+outputs/*/predictions.csv
+outputs/*/*/predictions.csv
+outputs/*/models/
+report/*.aux
+report/*.log
+report/*.out

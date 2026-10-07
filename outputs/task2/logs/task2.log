@@ -1,0 +1,25 @@
+2026-09-28 07:31:32,418 | INFO | Loading and tokenizing NYT
+2026-09-28 07:31:46,517 | INFO | Loading and tokenizing AG News
+2026-09-28 07:31:54,166 | INFO | Loading GloVe vectors from D:\作业\自然语言处理\实验1\submission\cache\glove\glove.6B.100d.txt
+2026-09-28 07:31:54,167 | INFO | loading projection weights from D:\作业\自然语言处理\实验1\submission\cache\glove\glove.6B.100d.txt
+2026-09-28 07:32:28,997 | INFO | KeyedVectors lifecycle event {'msg': 'loaded (400000, 100) matrix of type float32 from D:\\作业\\自然语言处理\\实验1\\submission\\cache\\glove\\glove.6B.100d.txt', 'binary': False, 'encoding': 'utf8', 'datetime': '2026-09-28T07:32:28.957742', 'gensim': '4.4.0', 'python': '3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'load_word2vec_format'}
+2026-09-28 07:32:28,999 | INFO | Loading cached Word2Vec model: D:\作业\自然语言处理\实验1\submission\outputs\task2\models\word2vec_ag.model
+2026-09-28 07:32:29,000 | INFO | loading Word2Vec object from D:\作业\自然语言处理\实验1\submission\outputs\task2\models\word2vec_ag.model
+2026-09-28 07:32:29,026 | INFO | loading wv recursively from D:\作业\自然语言处理\实验1\submission\outputs\task2\models\word2vec_ag.model.wv.* with mmap=None
+2026-09-28 07:32:29,026 | INFO | setting ignored attribute cum_table to None
+2026-09-28 07:32:29,171 | INFO | Word2Vec lifecycle event {'fname': 'D:\\作业\\自然语言处理\\实验1\\submission\\outputs\\task2\\models\\word2vec_ag.model', 'datetime': '2026-09-28T07:32:29.171169', 'gensim': '4.4.0', 'python': '3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'loaded'}
+2026-09-28 07:32:29,173 | INFO | Loading cached Word2Vec model: D:\作业\自然语言处理\实验1\submission\outputs\task2\models\word2vec_nyt.model
+2026-09-28 07:32:29,173 | INFO | loading Word2Vec object from D:\作业\自然语言处理\实验1\submission\outputs\task2\models\word2vec_nyt.model
+2026-09-28 07:32:29,197 | INFO | loading wv recursively from D:\作业\自然语言处理\实验1\submission\outputs\task2\models\word2vec_nyt.model.wv.* with mmap=None
+2026-09-28 07:32:29,197 | INFO | setting ignored attribute cum_table to None
+2026-09-28 07:32:29,390 | INFO | Word2Vec lifecycle event {'fname': 'D:\\作业\\自然语言处理\\实验1\\submission\\outputs\\task2\\models\\word2vec_nyt.model', 'datetime': '2026-09-28T07:32:29.390518', 'gensim': '4.4.0', 'python': '3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'loaded'}
+2026-09-28 07:32:29,391 | INFO | Building document vectors for glove
+2026-09-28 07:32:57,094 | INFO | glove coverage: train=0.9543 validation=0.9540 test=0.9540
+2026-09-28 07:32:57,354 | INFO | glove: accuracy=0.9618 macro_f1=0.9119 errors=44
+2026-09-28 07:32:57,356 | INFO | Building document vectors for word2vec_ag
+2026-09-28 07:33:25,143 | INFO | word2vec_ag coverage: train=0.9278 validation=0.9266 test=0.9276
+2026-09-28 07:33:25,395 | INFO | word2vec_ag: accuracy=0.9583 macro_f1=0.9067 errors=48
+2026-09-28 07:33:25,397 | INFO | Building document vectors for word2vec_nyt
+2026-09-28 07:33:53,246 | INFO | word2vec_nyt coverage: train=0.9738 validation=0.9684 test=0.9686
+2026-09-28 07:33:53,482 | INFO | word2vec_nyt: accuracy=0.9696 macro_f1=0.9313 errors=35
+2026-09-28 07:33:53,631 | INFO | Task 2 completed in 141.21 seconds

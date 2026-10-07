@@ -1,0 +1,36 @@
+{
+  "max_length": 64,
+  "train": {
+    "documents": 9215,
+    "mean": 833.4361367335865,
+    "median": 871.0,
+    "p90": 1239.6000000000004,
+    "p95": 1328.0,
+    "p99": 1565.7200000000012,
+    "max": 5433,
+    "over_max_length": 9210,
+    "over_max_length_rate": 0.9994574064026045
+  },
+  "validation": {
+    "documents": 1152,
+    "mean": 831.1276041666666,
+    "median": 874.0,
+    "p90": 1228.9,
+    "p95": 1327.45,
+    "p99": 1667.2700000000002,
+    "max": 3745,
+    "over_max_length": 1152,
+    "over_max_length_rate": 1.0
+  },
+  "test": {
+    "documents": 1152,
+    "mean": 851.5581597222222,
+    "median": 888.5,
+    "p90": 1242.8000000000002,
+    "p95": 1339.0,
+    "p99": 1532.45,
+    "max": 6775,
+    "over_max_length": 1152,
+    "over_max_length_rate": 1.0
+  }
+}

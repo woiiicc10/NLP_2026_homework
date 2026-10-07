@@ -1,0 +1,39 @@
+{
+  "model_name": "cache\\bert-base-uncased-local",
+  "max_length": 64,
+  "epochs": 3,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "best_epoch": 2,
+  "best_validation_macro_f1": 0.9457259133461315,
+  "test_loss": 0.057789552678716265,
+  "test_accuracy": 0.9852430555555556,
+  "test_macro_f1": 0.9683551246426864,
+  "test_confusion_matrix": [
+    [
+      135,
+      6,
+      2
+    ],
+    [
+      3,
+      140,
+      2
+    ],
+    [
+      2,
+      2,
+      860
+    ]
+  ],
+  "test_labels": [
+    "business",
+    "politics",
+    "sports"
+  ],
+  "misclassified_count": 17,
+  "parameter_count": 109484547,
+  "training_seconds": 212.34731460000012
+}
