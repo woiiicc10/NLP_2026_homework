@@ -2,13 +2,6 @@
 
 本仓库根据实验要求完成 NYT 新闻三分类实验，比较传统词袋模型、词向量表示和 BERT 预训练语言模型。当前采用逐实验完成、逐实验记录结果的方式；最终再统一生成汇总实验报告 PDF。
 
-## 当前完成状态
-
-- [x] Experiment 1：Bag-of-Words（2 种表示）
-- [x] Experiment 2：Word2Vec / GloVe（3 种表示）
-- [x] Experiment 3：BERT 微调
-- [x] 最终汇总报告与 PDF（`report/实验报告.pdf`）
-
 ## 实验约定
 
 - 数据集：`HW-1/nyt.csv`，共 11,519 条，标签为 `business`、`politics`、`sports`。
@@ -659,6 +652,7 @@ Experiment 3 的运行命令：
 | 3 | BERT-base-uncased | 0.9852 | 0.9684 |
 
 本实验最直接的结论是：在“最大长度 64”和较长新闻文本的前提下，保留全文词频信息的 Word Frequency 模型取得了最好的 Macro-F1；BERT 受输入截断限制，虽优于所有平均词向量方法，但略低于 Word Frequency。若任务允许更长的输入或更充分的微调预算，BERT 的优势通常会进一步显现。
+
 
 
 
